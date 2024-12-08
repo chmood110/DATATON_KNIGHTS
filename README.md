@@ -87,7 +87,7 @@ El modelo combina técnicas de preprocesamiento con **Sentence Transformers** pa
 ## Archivos Importantes
 
 - **`dataset_numerico.csv`**: Contiene los datos numéricos del problema, sin incluir la columna de remuneración anual del cargo público.
-- **`pca_areas_50.pkl`, `pca_carreras_50.pkl`, `pca_empleos_100.pkl`, `pca_puestos_100.pkl`, `pca_funciones_125.pkl`**: Modelos PCA preentrenados para reducción de dimensionalidad de embeddings.
+- **`pca_areas_50.pkl`, `pca_carreras_50.pkl`, `pca_empleos_100.pkl`, `pca_puestos_100.pkl`, `pca_funciones_125.pkl`**: Modelos PCA preentrenados para reducción de dimensionalidad de embeddings. Generados automáticamente al ejecutar el script `crear_dataset_numerico.ipynb`
 - **`scaler_remuneracion.pkl`**: Modelo de escalado para desescalar las predicciones.
 - **`crear_dataset_numerico.ipynb`**: Script que genera el dataset numérico a partir de las características procesadas.
 
